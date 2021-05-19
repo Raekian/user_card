@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    margin: 20px;
+    margin-top: 0px;
+    height:  450px;
+    width: 1000px;
+    border: 2px grey solid;
+    border-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.bluebar {
+    height: 150px;
+    width: 1000px;
+    border: lightskyblue solid 2px;
+    background-color:lightskyblue;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+.info {
+    font-weight: bold;
+    font-size: 1.5em;
+    width: 50%;
+    padding: 30px;
+    margin-bottom: 15px;
+}
+
+.usericon {
+    position: absolute;
+    border-top-left-radius: inherit;
+    top: 90px;
+    left: 50px;
+}
+
+.user {
+    height: 200px;
+    width: 200px;
+}
+
+.name {
+    font-size: 3em;
+}
+
+.small {
+    height: 30px
+}
+
+.location {
+    font-size: 2em;
+}
+
+a {
+    color: rgb(38, 91, 134);
+}
